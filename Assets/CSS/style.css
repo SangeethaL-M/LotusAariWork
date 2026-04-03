@@ -1,0 +1,707 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:90%;
+    margin: auto;
+}
+
+/* Header */
+.top-bar
+{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.lavender1
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+.lavender2
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: right;
+    padding-top: 40px;
+}
+.logo
+{
+    width: 300px;
+    height: 180px;
+}
+
+ /*Navbar Section*/
+ .loginreg
+ {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6B07AF;
+ }
+ 
+/*Banner Section*/
+.imgsize>img
+{
+    width:230px;
+    height: 500px;
+   padding-bottom: 20px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+.top-bar-banner
+{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.bnr 
+{
+    width:100%;
+}
+
+/*Welcome Section*/
+.top-bar-welcome
+{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.weltext h1
+{
+    font-family:'Solway';
+    font-size: 52px;
+    font-weight:500;
+    padding: 20px 0;
+}
+.weltext p 
+{
+    font-family:'Solway';
+    font-size: 24px;
+    font-weight:400;
+    padding: 20px 0;
+}
+.weltext>ul>li 
+{
+    font-family:'Solway';
+    font-size: 28px;
+    font-weight:400;
+    padding: 2px 0;
+}
+.welc1>img
+{
+    width:250px;
+    height: 270px;
+    border: 7px solid #6B07AF;
+    border-radius: 22px;
+}
+.welc2>img
+{
+    width:250px;
+    height: 270px;
+    border: 7px solid #6B07AF;
+    border-radius: 22px;
+}
+.welc1
+{
+    position: absolute;
+}
+.welc2
+{
+    position: relative;
+    top:150px;
+    left:140px;
+}
+.pad-top-bot
+{
+    padding-top: 30px;
+padding-bottom: 30px;
+   margin-top:30px;
+   margin-bottom: 30px;
+    
+}
+
+.contactbtn a
+{
+ text-decoration: none;
+ color:#6B07AF;
+}
+.contactbtn
+{
+    padding:10px 40px;
+ border-radius: 24px;
+ font-family:'Solway';
+    font-size: 26px;
+    font-weight:800;
+    border: none;
+}
+.cent
+{
+    justify-content: center;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+.oflow 
+{
+    overflow: hidden;
+}
+
+/*Why Choose Cards*/
+.section-title
+{
+    font-family: 'Solway';
+   padding-bottom: 20px;
+}
+.section-title h3
+{
+    font-size: 44px;
+     font-weight: 600;
+     text-align: left;
+     padding-bottom: 20px;
+}
+.section-title p 
+{
+    font-size: 18px;
+     font-weight: 200;
+     text-align:justify;
+}
+.card-custom
+{   
+    font-family: 'Solway';
+    font-weight: 600;
+    border-radius: 15px;
+    border: 2px solid ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    height:100%;
+    transition:0.3s;
+}
+.card-custom>p 
+{
+    font-weight: 200;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right:5px;
+}
+.card-custom>h5
+{
+    font-size: 37px;
+}
+.icon-circle>img
+{
+    width:170px;
+    height:150px;
+}
+.cardsec
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+   
+    
+}
+/* Footer */
+.lavender3
+{
+    color:white ;
+    font-family: 'Solway';
+    font-size: 24px;
+    text-align: left;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.lavender4
+{
+    color:white;
+    font-family: 'Solway';
+    font-size: 24px;
+    text-align: left;
+    padding-top: 4px;
+     font-weight: 100;
+}
+.infor1
+{
+     font-family: 'Solway';
+     color: white;
+     width: 35%;
+    text-align:left;
+}
+.infor2
+{
+    font-family: 'Solway';
+     color: white;
+     width: 20%;
+    text-align:left;
+}
+.infor3
+{
+    font-family: 'Solway';
+     color: white;
+     width: 35%;
+    text-align:left;
+}
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.last
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infor2 h5
+{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.infor2 p 
+{
+    font-size: 22px;
+}
+.infor3 h5
+{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.infor3 p 
+{
+    font-size: 22px;
+}
+.infor1 p 
+{
+    font-size: 22px;
+}
+.last
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Animations */
+/*----------------*/
+.card-custom:hover
+{
+    background-color:#8F8484;
+    color:white;
+}
+a:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+/*
+.imgsize img {
+    width: 90%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.imgsize:hover img {
+    transform: scale(1.08); 
+}
+*/
+ /* Media Query */
+
+ /* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+}
+
+/* For Laptop Devices */
+/*------------------------- */
+@media only screen and (max-width: 1024px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 20px;
+    
+}
+.lavender2
+{
+    
+    font-size: 20px;
+       
+}
+
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+
+}
+
+/* For Tablet Devices */
+/*------------------------- */
+@media only screen and (max-width: 768px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 16px;
+    
+}
+.lavender2
+{
+    
+    font-size: 16px;
+       
+}
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+/*Welcome Section*/
+
+.weltext h1
+{
+   
+    font-size: 44px;
+    
+}
+.weltext p 
+{
+   
+    font-size: 16px;
+    
+}
+.weltext>ul>li 
+{
+    
+    font-size: 16px;
+    
+}
+.welc1>img
+{
+    width:180px;
+    height: 200px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+.welc2>img
+{
+    width:180px;
+    height: 200px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+.welc1
+{
+    position: absolute;
+}
+.welc2
+{
+    position: relative;
+    top:80px;
+    left:70px;
+}
+.pad-top-bot
+{
+    padding: 20px 0px;
+    margin: 20px 0px;
+}
+
+.contactbtn a
+{
+ text-decoration: none;
+ color:#6B07AF;
+}
+.contactbtn
+{
+    padding:10px 30px;
+ border-radius: 18px;
+
+    font-size: 16px;
+    
+}
+.cent
+{
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+/*Footer*/
+.infor1
+{
+    width:100%;
+
+}
+.infor2
+{
+    width:40%;
+    
+}
+.infor3
+{
+    width:40%;
+    
+}
+.lavender3
+{
+   
+    font-size: 18px;
+    
+}
+.lavender4
+{
+    
+    font-size: 18px;
+    
+}
+
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.infor2 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor2 p 
+{
+    font-size: 16px;
+}
+.infor3 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor3 p 
+{
+    font-size: 16px;
+}
+.infor1 p 
+{
+    font-size: 16px;
+}
+.last
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}
+
+/* For Large Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 426px)
+{
+
+/*Navbar Section*/
+.menu1
+{
+    display: none;
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+/*Welcome Section*/
+
+.weltext h1
+{
+    
+    font-size: 34px;
+    
+    padding: 8px 0;
+}
+.weltext p 
+{
+   
+    font-size: 14px;
+    
+    padding: 8px 0;
+}
+.weltext>ul>li 
+{
+  
+    font-size: 14px;
+    
+    padding: 1px 0;
+}
+.welc1>img
+{
+    width:100px;
+    height: 130px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+.welc2>img
+{
+    width:100px;
+    height: 130px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+
+.welc2
+{
+    position: relative;
+    top:50px;
+    left:40px;
+}
+.pad-top-bot
+{
+    padding-top: 10px;
+padding-bottom: 10px;
+   margin-top:10px;
+   margin-bottom: 10px;
+    
+}
+.white
+{
+    height: 10vh;
+}
+
+.contactbtn
+{
+    padding:10px 40px;
+ border-radius: 21px;
+ 
+    font-size: 16px;
+   
+}
+
+.infor1
+{
+    width:100%;
+
+}
+.infor2
+{
+    width:100%;
+    text-align: center;
+}
+.infor3
+{
+    width:100%;
+    text-align: left;
+}
+.lavender3
+{
+   
+    font-size: 12px;
+    
+}
+.lavender4
+{
+    
+    font-size: 12px;
+    
+}
+
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.infor2 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor2 p 
+{
+    font-size: 13px;
+}
+.infor3 h5
+{
+    font-size: 21px;
+    
+}
+.infor3 p 
+{
+    font-size: 13px;
+}
+.infor1 p 
+{
+    font-size: 13px;
+}
+.last
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+}
+
+}
+
+/* For Small Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 320px)
+{
+
+/*Logo Section*/
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+
+.welc1>img
+{
+    width:70px;
+    height: 60px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+.welc2>img
+{
+    width:70px;
+    height: 60px;
+    border: 7px solid #6B07AF;
+    border-radius: 18px;
+}
+
+.welc2
+{
+    position: relative;
+    top:30px;
+    left:15px;
+}
+/*.welc1 img
+{
+    display: none ;
+}
+.welc2 img
+{
+    display: none ;
+}*/
+
+}

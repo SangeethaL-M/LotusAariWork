@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:90%;
+    margin: auto;
+}
+/* Header */
+.top-bar
+{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.lavender1
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+.lavender2
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: right;
+    padding-top: 40px;
+}
+.logo
+{
+    width: 300px;
+    height: 180px;
+}
+
+ /*Navbar Section*/
+ .loginreg
+ {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6B07AF;
+ }
+
+ /* Form */
+.formcustom1
+{
+    
+    padding-top: 6ch;
+    font-family: 'Solway';
+    font-size: larger;
+    
+}
+.formcustom1 label
+{
+    font-size: 32px;
+}
+.formcustom1 input
+{
+    font-size: 24px;
+    border:2px solid #6B07AF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 18px;
+}
+.form-check
+{
+ 
+    padding-bottom: 10px;
+}
+.form-check input
+{
+    border:1px solid  #989898;
+   
+
+}
+
+
+.form-check label
+{
+    padding-top: 20px;
+    font-size: 19px;
+    color: #8B8484;
+    font-weight: 500;
+}
+.btnlog
+{
+    color: #6B07AF;
+    background-color: #EDF0F2;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 18px;
+    border: none;
+    font-size: 24px;
+    font-weight:500 ;
+}
+.butn
+{
+    text-align: center;
+    padding: 20px;
+}
+.forreg
+{
+     font-size: 22px;
+    font-weight:400 ;
+   font-family: 'Solway';
+}
+.forreg a
+{
+    text-decoration: none;
+}
+ /* Animations */
+/*----------------*/
+.card-custom:hover
+{
+    background-color:#8F8484;
+    color:white;
+}
+a:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+/*
+.imgsize img {
+    width: 90%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.imgsize:hover img {
+    transform: scale(1.08); 
+}
+
+*/
+
+/* Animations */
+.formcustom1 input:hover
+{ 
+    border:2px solid black;
+}
+
+
+
+/* Media Query */
+
+ /* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+}
+
+/* For Laptop Devices */
+/*------------------------- */
+@media only screen and (max-width: 1024px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 20px;
+    
+}
+.lavender2
+{
+    
+    font-size: 20px;
+       
+}
+
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+
+}
+
+/* For Tablet Devices */
+/*------------------------- */
+@media only screen and (max-width: 768px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 16px;
+    
+}
+.lavender2
+{
+    
+    font-size: 16px;
+       
+}
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+.formcustom1 input
+{
+    font-size: 17px;
+}
+}
+/* For Large Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 426px)
+{
+
+/*Navbar Section*/
+.menu1
+{
+    display: none;
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.white
+{
+    height: 10vh;
+}
+.formcustom1 input
+{
+    font-size: 16px;
+}
+}
+/* For Small Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 320px)
+{
+
+/*Logo Section*/
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+}
+/* */

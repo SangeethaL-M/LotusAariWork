@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:90%;
+    margin: auto;
+}
+/* Header */
+.top-bar
+{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.lavender1
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: center;
+    padding-top: 40px;
+}
+.lavender2
+{
+    color:#6B07AF ;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    text-align: right;
+    padding-top: 40px;
+}
+.logo
+{
+    width: 300px;
+    height: 180px;
+}
+
+ /*Navbar Section*/
+ .loginreg
+ {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #6B07AF;
+ }
+
+ .homeban h1
+ {
+    color:#2A1863;
+    background-color: #FFEDDE;
+    
+    text-align: center;
+    font-family: 'Solway';
+    font-weight: 700;
+    font-size: 100px;
+ }
+.homeban
+{
+    padding-top: 40px;
+}
+.homeban h3
+{
+     text-align: center;
+    font-family: 'Solway';
+    font-weight: 400;
+    font-size: 38px;
+     padding-top: 60px;
+    
+}
+.card-custom1
+{
+     border: 5px solid #6B07AF;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.card-custom1 img
+{
+    height:280px;
+   object-fit: cover;
+   
+    
+}
+ /* Footer */
+.lavender3
+{
+    color:white ;
+    font-family: 'Solway';
+    font-size: 24px;
+    text-align: left;
+    padding-top: 10px;
+    font-weight: 100;
+}
+.lavender4
+{
+    color:white;
+    font-family: 'Solway';
+    font-size: 24px;
+    text-align: left;
+    padding-top: 4px;
+     font-weight: 100;
+}
+.infor1
+{
+     font-family: 'Solway';
+     color: white;
+     width: 35%;
+    text-align:left;
+}
+.infor2
+{
+    font-family: 'Solway';
+     color: white;
+     width: 20%;
+    text-align:left;
+}
+.infor3
+{
+    font-family: 'Solway';
+     color: white;
+     width: 35%;
+    text-align:left;
+}
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.last
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infor2 h5
+{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.infor2 p 
+{
+    font-size: 22px;
+}
+.infor3 h5
+{
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.infor3 p 
+{
+    font-size: 22px;
+}
+.infor1 p 
+{
+    font-size: 22px;
+}
+.last
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Animations */
+/*----------------*/
+.card-custom:hover
+{
+    background-color:#8F8484;
+    color:white;
+}
+a:hover
+{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+/*
+.imgsize img {
+    width: 90%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.imgsize:hover img {
+    transform: scale(1.08); 
+}
+*/
+
+
+
+ /* Media Query */
+
+ /* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+}
+
+/* For Laptop Devices */
+/*------------------------- */
+@media only screen and (max-width: 1024px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 20px;
+    
+}
+.lavender2
+{
+    
+    font-size: 20px;
+       
+}
+
+/*Navbar Section*/
+.menu
+{
+    display: none;
+}
+
+}
+
+/* For Tablet Devices */
+/*------------------------- */
+@media only screen and (max-width: 768px)
+{
+/*Logo Section*/
+.lavender1
+{
+   
+    font-size: 16px;
+    
+}
+.lavender2
+{
+    
+    font-size: 16px;
+       
+}
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+/*Footer*/
+.infor1
+{
+    width:100%;
+
+}
+.infor2
+{
+    width:40%;
+    
+}
+.infor3
+{
+    width:40%;
+    
+}
+.lavender3
+{
+   
+    font-size: 18px;
+    
+}
+.lavender4
+{
+    
+    font-size: 18px;
+    
+}
+
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.infor2 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor2 p 
+{
+    font-size: 16px;
+}
+.infor3 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor3 p 
+{
+    font-size: 16px;
+}
+.infor1 p 
+{
+    font-size: 16px;
+}
+.last
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}
+
+/* For Large Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 426px)
+{
+
+/*Navbar Section*/
+.menu1
+{
+    display: none;
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.white
+{
+    height: 10vh;
+}
+.infor1
+{
+    width:100%;
+
+}
+.infor2
+{
+    width:100%;
+    text-align: center;
+}
+.infor3
+{
+    width:100%;
+    text-align: left;
+}
+.lavender3
+{
+   
+    font-size: 12px;
+    
+}
+.lavender4
+{
+    
+    font-size: 12px;
+    
+}
+
+.infor1 img
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.infor2 h5
+{
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+.infor2 p 
+{
+    font-size: 13px;
+}
+.infor3 h5
+{
+    font-size: 21px;
+    
+}
+.infor3 p 
+{
+    font-size: 13px;
+}
+.infor1 p 
+{
+    font-size: 13px;
+}
+.last
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+}
+/* For Small Mobile Devices */
+/*------------------------- */
+@media only screen and (max-width: 320px)
+{
+
+/*Logo Section*/
+.logo
+{
+    width: 200px;
+    height: 100px;
+}
+}
+/* */
