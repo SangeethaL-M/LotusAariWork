@@ -404,6 +404,10 @@ a:hover
     padding-bottom: 10px;
     padding-left: 4px;
 }
+.homeban h1
+{
+    font-size: 70px;
+}
 }
 /* For Small Mobile Devices */
 /*------------------------- */
@@ -415,6 +419,10 @@ a:hover
 {
     width: 200px;
     height: 100px;
+}
+.homeban h1
+{
+    font-size: 70px;
 }
 }
 /* */
